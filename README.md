@@ -1,12 +1,12 @@
-# NSara-Project-2
+# NSara-Project-3
 
 
-# Project 2 - Landing Page
+# Project 3 - Weather App Journal
 
 <br>
 
 ## Aim
-This project aims to create a landing page template from scratch that engages the visitor with an interactive experience.
+
 
 <br>
 
