@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+body{
+    background: linear-gradient(to bottom right, #ff4 0%, #3cf 100%);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+/* Weather Journal app container */
+#app{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	width: 500px;
+	margin: auto;
+	height: 95vh;
+	background: #fff;
+	color: #4AF;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	padding: 10px;
+}
+
+/* Holder criteria for text display */
+.holder {
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+}
+
+/* Input Entry and Weather data generation */
+.entry {
+	color: #333;
+    background: rgba(59, 74, 107, .4);
+    margin-bottom: 10px;
+}
+
+#entryHolder {
+    width: auto;
+}
+
+#date, #temp, #description, #feelsLike, #humidity, #location {
+    color: white;
+    text-align: center;
+}
+
+#location{
+	color: #903;
+	font-weight: 500;
+}
+
+#temp{
+	font-size: 24px;
+	font-weight: 500;
+}
+
+#description{
+	color: #444;
+}
+
+#content {
+    color: #03C;
+	font-size: 14px;
+}
+
+/* Weather journal app header */
+.headline { 
+    font-size: 30px;
+	font-weight: 500;
+}
+
+/* Most recent entry title */
+.title {
+    padding: 5px;
+	color: #000;
+	font-size: 16px;
+}
+
+/* Styling for input fields */
+input {
+    display: block;
+    height: 30px;
+    width: 400px;
+    background: rgba(0,0,0,0.25);
+    color: #000;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    padding: 10px;
+	border-radius: 5px;
+}
+
+/* Styling for GENERATE button */
+button {
+    width: 400px;
+    height: 50px;
+    background: #3b4a6b;
+    color: #f0d43a;
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+	margin: 10px;
+	outline: none;
+}
+
+button:active{
+	color: #3b4a6b;
+    background: #f0d43a;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+input:focus{
+    outline: 2px solid #3cf;
+}
+
+/* Style for Placeholder Text*/
+::placeholder {
+    /* Firefox, Chrome, Opera */
+    font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+}
+
+.hint {
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+/* Styling for footer section */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+footer a{
+	color: #ff4;
+	text-decoration: none;
+}
+
+footer a:hover{
+	opacity: 0.7;
+}
