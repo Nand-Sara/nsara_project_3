@@ -1,0 +1,21 @@
+{
+  "name": "project---3_weather_app",
+  "version": "1.0.0",
+  "description": "A Weather journal app built with JavaScript, HTML and CSS on client side and NodeJS with Express for server side",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Nandini Saravanan",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nand-Sara/nsara_project_3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nand-Sara/nsara_project_3/issues"
+  },
+  "homepage": "https://github.com/Nand-Sara/nsara_project_3#readme"
+}
